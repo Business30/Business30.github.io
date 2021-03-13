@@ -1,0 +1,161 @@
+{
+  "id": 2272,
+  "project_id": 317,
+  "upload_types": [
+    "repo",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "- 可视化图表易懂有趣，吸引眼球，信息量丰富。\n- 问题有趣，对提供数据的个人有深入的研究。\n- 在讨论结果时考虑过数据收集过程中的潜在问题。",
+  "hide_criteria": false,
+  "created_at": "2018-08-28T07:34:22.604Z",
+  "updated_at": "2019-02-19T13:16:37.954Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "checkmate_enabled": false,
+  "checkmate_metadata": null,
+  "available_for_cert_project": false,
+  "classroom_node_id": 702776,
+  "classroom_project_key": "49cb17b7-f54a-436a-a9fa-0b65d46a06c2",
+  "language": "zh-cn",
+  "sections": [
+    {
+      "id": 4788,
+      "name": "探索阶段",
+      "created_at": "2018-08-28T07:37:43.799Z",
+      "updated_at": "2018-08-28T07:37:52.310Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2272,
+      "rubric_items": [
+        {
+          "id": 13886,
+          "section_id": 4788,
+          "passed_description": "项目清晰地描述了四个或多个问题，然后在分析的后续部分解决这些问题。问题的答案应该包括从一列中找到答案或从多列中找到答案。\n",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:37:52.647Z",
+          "updated_at": "2018-08-28T07:38:09.065Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "学员能够提出问题并使用数据来回答这些问题。",
+          "exceedable": false
+        },
+        {
+          "id": 13887,
+          "section_id": 4788,
+          "passed_description": "学员使用均值、中位数和众数得出结论。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:38:09.388Z",
+          "updated_at": "2018-08-28T07:38:28.484Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "学员能够计算数值数据的集中趋势测量值。",
+          "exceedable": false
+        },
+        {
+          "id": 13888,
+          "section_id": 4788,
+          "passed_description": "学员使用标准偏差和值域得出结论。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:38:28.818Z",
+          "updated_at": "2018-08-28T07:38:44.494Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "学员能够计算数值数据的离散程度测量值。",
+          "exceedable": false
+        },
+        {
+          "id": 13889,
+          "section_id": 4788,
+          "passed_description": "学员至少使用了两个不同的图表来分析数据。这些图表可能包括直方图、箱线图、散点图和柱状图，从而探索数据并得出结论。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:38:44.975Z",
+          "updated_at": "2018-08-28T07:39:03.620Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "学员能够为数值数据和分类数据绘制图表。",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 4789,
+      "name": "呈现阶段",
+      "created_at": "2018-08-28T07:39:16.663Z",
+      "updated_at": "2018-08-28T07:39:26.489Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2272,
+      "rubric_items": [
+        {
+          "id": 13890,
+          "section_id": 4789,
+          "passed_description": "分析结果的展现方式能够清晰地呈现任何限制条件。分析没有仅根据一种相互关系描述或暗示一个更改会导致另一个更改。\n\n结果没有根据描述性值暗示关于更大型的群组的事实。措辞仅涉及提供的具体数据。除非正确进行了课程材料之外的分析，并能够推理出其他结论。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:39:26.961Z",
+          "updated_at": "2018-08-28T07:39:45.803Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "学员在使用描述性统计学时能够避免使用推理语句或因果语句。\n",
+          "exceedable": false
+        },
+        {
+          "id": 13891,
+          "section_id": 4789,
+          "passed_description": "与回答特定问题相关的分析使用了能够提供答案的合适变量、求和统计学信息和图表。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:39:46.234Z",
+          "updated_at": "2018-08-28T07:39:58.346Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "学员能够针对给定的数据类型选择正确的分析或图表。",
+          "exceedable": false
+        },
+        {
+          "id": 13892,
+          "section_id": 4789,
+          "passed_description": "为每个分析决策、图表和统计学概括都提供了推理过程。",
+          "exceeded_description": null,
+          "created_at": "2018-08-28T07:39:58.753Z",
+          "updated_at": "2018-08-28T07:40:16.718Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "学员能够以易于理解的方式呈现发现结果。",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 317,
+    "name": "Analyze Survey Results",
+    "nanodegree_key": "nd100",
+    "is_cert_project": false,
+    "required_skills": "Descriptive Statistics\r\nSpreadsheets",
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 1144,
+    "entitlement_required": null,
+    "is_career": null,
+    "recruitment_family_id": 5,
+    "awaiting_review_count": 0,
+    "awaiting_review_count_by_language": {},
+    "awaiting_audit_count": 0,
+    "awaiting_quality_audit_count": 0,
+    "awaiting_training_audit_count": 0,
+    "created_at": "2017-06-21T20:38:14.311Z",
+    "updated_at": "2019-03-11T03:21:58.925Z",
+    "price": "15.0",
+    "audit_price": "4.0"
+  }
+}
